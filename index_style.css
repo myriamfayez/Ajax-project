@@ -1,0 +1,101 @@
+
+body{
+    background-color: lightblue;
+        
+}
+
+
+#searchInput{
+
+    width: 60%;
+    margin: 5% 15%;
+    border-radius: 20px;
+    position: relative;
+    height: 8%;
+}
+
+
+#searchButton{
+
+    position: absolute;
+    top: 25%;
+    right: 26%;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.tb{
+
+    margin-left: 20%;
+}
+
+
+
+
+.one{
+    margin-left: 43%;
+    margin-top: -9%;
+  
+}
+
+.two{
+
+    margin-left: 55%;
+    margin-top: -9%;
+    
+
+}
+
+
+footer{
+
+    margin-left: 20%;
+    margin-top: 30%;
+}
+
+
+.icons{
+
+    
+    margin-left: 60%;
+
+}
+
+
+
+
+.icons a{
+
+background-color: lightslategray;
+width: 9%;
+height: 6%;
+border-radius: 50%;
+text-align: center;
+padding-top: 2.9%;
+margin-inline: 2%;
+color: chocolate;
+transition: 1s;
+}
+
+
+.icons a:hover{
+
+    background-color: black;
+    color: white;
+}
+
+
+.bt{
+
+    background-color: blue;
+    border-radius: 10px;
+
+}
+
+
+#sub{
+
+    border-radius: 15px;
+    width: 25%;
+    height: 6%;
+}

@@ -1,0 +1,197 @@
+
+
+
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="index_style.css" rel="stylesheet">
+<title>Weather News</title>
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary ">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img  src="images/sun.png" alt="sun" class="rounded" width="15%" height="15%" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Photos</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">News</a>
+              </li>
+
+
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Live Cameras</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+<!--Search Button-->
+<input type="search" id="searchInput" name="search"   placeholder= "Find Your Location...." >
+<button id="searchButton">Find</button>
+
+
+
+<!-- <h1 id="h">
+
+</h1>
+<br>
+<button class="btn bg-body-tertiary" onclick="start()">start</button>
+<button class="btn data-bs-toggle" onclick="stop()">stop</button> -->
+
+
+<div class="table" >
+  
+
+
+
+<table class=tb>
+<tr><td id="today"></td></tr>
+<tr>
+
+<td id="day"> </td> 
+
+<td id="dayno"></td>
+  
+</tr>
+<tr>
+
+  <td id="city"></td>
+  
+</tr>
+
+
+<tr>
+  <td id="temp"></td>
+  <td >
+    <img  src="https"  id="icon" >
+  </td>
+</tr>
+
+
+<tr>
+
+  <td id="hum"></td>
+  <td id="wind"></td>
+  <td id="dir"></td>
+</tr>
+
+</table>
+
+
+
+
+
+
+<table class="one">
+ 
+  <tr><td id="nextDay"></td></tr>  <!-- Tomorrow  -->
+<tr>
+  <td class="text"></td>
+
+</tr>
+
+
+<tr><td class="max"></td></tr>
+<tr><td class="min"></td></tr>
+
+<tr>  <td><img class="img"></td></tr>
+
+
+</table>
+
+
+
+
+
+
+
+
+
+<table class="two">
+  <!-- <tr>
+    <td class="ic"></td>
+  
+  </tr> -->
+  <tr><td id="next2Day"></td></tr>  <!-- After tomorrow-->
+
+  <tr><td class="x"></td></tr>
+  <tr><td class="in"></td></tr>
+  
+  <tr>  <td><img class="im"></td></tr>
+  
+  
+  </table>
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<!--Subscribe-->
+<footer>
+
+    <input type="text" id="sub" name="sub" placeholder = " Enter your Email to Subscribe Now ...." >
+<button class="bt" onclick="subscribe()">Subscribe</button><br><br>
+
+<div class="icons">
+<a href="https://www.facebook.com/" target="_blank" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-pinterest"></a>
+</div>
+
+<p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+</footer>
+
+<script src="bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>
+
